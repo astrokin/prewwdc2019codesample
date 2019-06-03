@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ahV-Rt-ovW">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WorkWithSounds" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kcf-2K-mIq">
+                                <rect key="frame" x="0.0" y="108" width="414" height="30"/>
+                                <state key="normal" title="AudioToolbox"/>
+                                <connections>
+                                    <action selector="audiotoolbox:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MS2-bR-SzA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gov-CT-ozP">
+                                <rect key="frame" x="0.0" y="148" width="414" height="30"/>
+                                <state key="normal" title="AVFoundation"/>
+                                <connections>
+                                    <action selector="avfoundation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rRI-oz-Ifv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ht8-HL-J1h">
+                                <rect key="frame" x="0.0" y="188" width="414" height="30"/>
+                                <state key="normal" title="Vibrate"/>
+                                <connections>
+                                    <action selector="vibrate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qij-8a-TYy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uKk-rF-pcc">
+                                <rect key="frame" x="0.0" y="228" width="414" height="30"/>
+                                <state key="normal" title="UIImpactFeedbackGenerator"/>
+                                <connections>
+                                    <action selector="impact:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0UK-dD-Hk1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Btw-ho-DFr">
+                                <rect key="frame" x="0.0" y="268" width="414" height="30"/>
+                                <state key="normal" title="UISelectionFeedbackGenerator"/>
+                                <connections>
+                                    <action selector="selection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yDK-nT-ujn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UsP-ab-KF1">
+                                <rect key="frame" x="0.0" y="308" width="414" height="30"/>
+                                <state key="normal" title="UINotificationFeedbackGenerator"/>
+                                <connections>
+                                    <action selector="notification:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uFv-Nr-0qd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W6k-Er-hmg">
+                                <rect key="frame" x="0.0" y="346" width="414" height="30"/>
+                                <state key="normal" title="Record"/>
+                                <state key="selected" title="Recording"/>
+                                <state key="highlighted" title="Listen"/>
+                                <connections>
+                                    <action selector="record:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4uZ-U5-T5c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDW-Qp-U2b">
+                                <rect key="frame" x="0.0" y="384" width="414" height="30"/>
+                                <state key="normal" title="Voices"/>
+                                <connections>
+                                    <action selector="voices:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hLY-CE-i1k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BP9-lN-ZTW">
+                                <rect key="frame" x="0.0" y="422" width="414" height="30"/>
+                                <state key="normal" title="Speech"/>
+                                <connections>
+                                    <action selector="speech:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZgW-W5-Ugm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BP9-lN-ZTW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4z8-CR-lPF"/>
+                            <constraint firstItem="ht8-HL-J1h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5Rj-Vb-Blj"/>
+                            <constraint firstItem="Btw-ho-DFr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5xL-gR-OG1"/>
+                            <constraint firstItem="UsP-ab-KF1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7LK-Cw-Vi4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UsP-ab-KF1" secondAttribute="trailing" id="JKs-4R-wwv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Btw-ho-DFr" secondAttribute="trailing" id="N2O-sa-vZN"/>
+                            <constraint firstItem="UsP-ab-KF1" firstAttribute="top" secondItem="Btw-ho-DFr" secondAttribute="bottom" constant="10" id="NYb-30-3jd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FDW-Qp-U2b" secondAttribute="trailing" id="QA6-Ek-gBP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="kcf-2K-mIq" secondAttribute="top" constant="-20" id="QDv-QT-Kuk"/>
+                            <constraint firstItem="uKk-rF-pcc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Qu3-T5-R8A"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kcf-2K-mIq" secondAttribute="trailing" id="ZRF-iN-lHt"/>
+                            <constraint firstItem="FDW-Qp-U2b" firstAttribute="top" secondItem="W6k-Er-hmg" secondAttribute="bottom" constant="8" id="aQ2-5l-3jl"/>
+                            <constraint firstItem="W6k-Er-hmg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="baR-wb-wFC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gov-CT-ozP" secondAttribute="trailing" id="d6P-Jw-TUc"/>
+                            <constraint firstItem="Btw-ho-DFr" firstAttribute="top" secondItem="uKk-rF-pcc" secondAttribute="bottom" constant="10" id="d80-Xg-Mf0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W6k-Er-hmg" secondAttribute="trailing" id="dJz-b3-ZNW"/>
+                            <constraint firstItem="FDW-Qp-U2b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fic-CH-KVj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BP9-lN-ZTW" secondAttribute="trailing" id="llT-P5-fm8"/>
+                            <constraint firstItem="uKk-rF-pcc" firstAttribute="top" secondItem="ht8-HL-J1h" secondAttribute="bottom" constant="10" id="qHz-TS-tR1"/>
+                            <constraint firstItem="kcf-2K-mIq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qiv-Eh-hnl"/>
+                            <constraint firstItem="ht8-HL-J1h" firstAttribute="top" secondItem="Gov-CT-ozP" secondAttribute="bottom" constant="10" id="qte-aT-YuV"/>
+                            <constraint firstItem="BP9-lN-ZTW" firstAttribute="top" secondItem="FDW-Qp-U2b" secondAttribute="bottom" constant="8" id="rvI-Ms-aWW"/>
+                            <constraint firstItem="Gov-CT-ozP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="snz-KG-hGm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ht8-HL-J1h" secondAttribute="trailing" id="wO9-JR-WNJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uKk-rF-pcc" secondAttribute="trailing" id="wwl-mS-Azb"/>
+                            <constraint firstItem="Gov-CT-ozP" firstAttribute="top" secondItem="kcf-2K-mIq" secondAttribute="bottom" constant="10" id="x33-1V-E2q"/>
+                            <constraint firstItem="W6k-Er-hmg" firstAttribute="top" secondItem="UsP-ab-KF1" secondAttribute="bottom" constant="8" id="xLW-bh-R9l"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pHy-Vq-g7P"/>
+                    <connections>
+                        <outlet property="recordButton" destination="W6k-Er-hmg" id="xwe-ct-wPh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="126.5625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1v1-Y7-NCw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ahV-Rt-ovW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hMs-I8-vsT">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="3OT-UZ-R4K"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="niA-wB-Wh6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="171.01449275362319" y="771.42857142857144"/>
+        </scene>
+    </scenes>
+</document>
